@@ -1,7 +1,7 @@
 # IMAGE TRANSFORMATIONS
 
 
-## Aim
+## Aim:
 To perform image transformation such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping using OpenCV and Python.
 
 ## Software Required:
@@ -36,7 +36,7 @@ i) Original Image
 # To show the original image and to find the shape of the image
 import cv2
 import numpy as np
-img = cv2.imread('tan.jpg',-1)
+img = cv2.imread('peacock.jpg',-1)
 re=cv2.resize(img,(400,300))
 original = cv2.cvtColor(re , cv2.COLOR_BGR2RGB)
 cv2.imshow('input',original)
@@ -94,19 +94,33 @@ cv2.destroyAllWindows()
 ```
 ## Output:
 ### Original image
+
 ![Screenshot 2024-05-10 153220990](https://github.com/JananiSoundararajan/IMAGE-TRANSFORMATIONS/assets/119477549/ecb36946-3b26-4ab9-bdef-a04641567735)
 
 ### i)Image Translation
+
 ![tis](https://github.com/JananiSoundararajan/IMAGE-TRANSFORMATIONS/assets/119477549/54e7dfc4-909d-4fa0-a8fa-8736b16139aa)
 
 ### ii)Image shearing
 
+![SHEARX](https://github.com/JananiSoundararajan/IMAGE-TRANSFORMATIONS/assets/119477549/e493a792-14e2-4240-90c1-54acfc0f8b4f)
+
+![Screenshot 2024-05-10 182017](https://github.com/JananiSoundararajan/IMAGE-TRANSFORMATIONS/assets/119477549/0347ff55-0b6e-463c-a3fb-aed2a20c2960)
 
 ### iii)Image Reflection
 
+![REFLECTEDX](https://github.com/JananiSoundararajan/IMAGE-TRANSFORMATIONS/assets/119477549/aaac7cf0-9fb8-4e47-960f-60368bdf5854)
+
+![REFLECTEDY](https://github.com/JananiSoundararajan/IMAGE-TRANSFORMATIONS/assets/119477549/4745f772-d680-48d1-a1ac-4e3ee162934a)
+
 ### iv)Image Rotation
 
+![ROTATED](https://github.com/JananiSoundararajan/IMAGE-TRANSFORMATIONS/assets/119477549/d2c82128-f7da-4775-a1d4-fc43f6e16eb9)
+
+
 ### v)Image Cropping
+
+![CROP](https://github.com/JananiSoundararajan/IMAGE-TRANSFORMATIONS/assets/119477549/926a5307-4bda-444c-8643-41d6a0433bd0)
 
 
 Thus the different image transformations such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping are done using OpenCV and python programming.
